@@ -14,22 +14,13 @@
     background-position: center; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: rgba(15, 133, 207, 0.7); 
+    background-color: rgba(224, 243, 255, 0.5);
 }
 
 .title {
     font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: rgba(16, 255, 255, 0.7);
-}
-
-.desc {
+    margin-bottom: 50px;
     color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.5;
-    margin-bottom: 20px;
 }
 
 .link {
