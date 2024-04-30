@@ -1,0 +1,27 @@
+.details-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  background-color: #eeeff3;
+  min-height: 100vh;
+}
+
+.details-container .details-description p {
+  margin: 0;
+  padding: 0;
+  line-height: 25px;
+  font-size: 1.1em;
+}
+
+.details-description {
+  padding: 20px;
+  letter-spacing: 1.5;
+  margin: 10px 15px 20px;
+  color: #333;
+  font-size: 15px;
+  overflow-wrap: anywhere;
+  background-color: #a3d8d770;
+  columns: 200px 2;
+  column-gap: 30px;
+}
