@@ -98,6 +98,8 @@ export const Login = () => {
                 <button type="submit" defaultValue="Login" className={style['button']}>Login</button>
 
             </form>
+            
         </div>
+
     );
 }
