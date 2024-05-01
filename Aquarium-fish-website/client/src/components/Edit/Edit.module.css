@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/image/milos-prelevic-2xuiab6o-qc-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.edit-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff7c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    position: relative;
+    z-index: 1;
+}
+
+.form {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    background-color: rgba(208, 217, 255, 0.8);
+    box-shadow: 0 0 10px rgba(20, 78, 145, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 3px solid #021b43be;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+
+.edit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+
+.edit-button:hover {
+    background-color: #4e8acb;
+}
+
+
+.error {
+    color: #1e141479;
+    text-align: center;
+    position: sticky;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
