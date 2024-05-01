@@ -84,3 +84,12 @@ button {
 button:hover {
   background-color: #4e8acb;
 }
+
+.error {
+  color: #1e141479;
+  text-align: center;
+  position: sticky;
+  font-size: 20px;
+  margin: 10px;
+  font-weight: bold;
+}
