@@ -1,4 +1,4 @@
-# Aquarium-fish-website
+# Aquarium-fish
 React Project
 
 <h2>💻 Technologies used:</h2>
