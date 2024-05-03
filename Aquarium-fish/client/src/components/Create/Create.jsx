@@ -72,11 +72,11 @@ export const Create = () => {
 
             if (!editedFish.image) {
                 alert("Please select an image");
-                return; // Излизаме от функцията или изпълнението на кода
+                return;
             }
 
             try {
-                await FishService.editFish(fish, editedFish);
+                await FishService.addFish(fish);
                 nav('/catalog');
             } catch (error) {
                 console.log(`Please try again ${error}`);
