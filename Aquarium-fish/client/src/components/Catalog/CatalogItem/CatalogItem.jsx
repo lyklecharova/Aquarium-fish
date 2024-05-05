@@ -38,7 +38,7 @@ export const CatalogItem = ({
                     {description.length > 50 ? (
                         <div>
                             <p className={style['items-description']}>{expanded ? description : `${description.slice(0, 50)}...`}</p>
-                            <button onClick={() => nav(`/fishes/${_id}`)}>Read more about fish</button>
+                            <button onClick={() => nav(`/fishes/${_id}`)} className={style['read-more-btn']}>Read more about fish</button>
                         </div>
                     ) : (
                         <p className={style['items-description']}>{description}</p>
