@@ -43,7 +43,7 @@
 
 .card img {
   width: 100%;
-  height: auto; 
+  height: auto;
   -o-object-fit: cover;
   object-fit: cover;
   position: absolute;
@@ -52,7 +52,7 @@
   border-radius: 15px;
 }
 
-.card 
+.card
 .card-details {
   position: relative;
   z-index: 3;
@@ -62,33 +62,36 @@
   transition: 0.5s;
 }
 
-.card:hover 
+.card:hover
 .card-details {
   opacity: 1;
   transform: translateY(0px);
 }
 
-.card 
+.card
 .items-title {
   margin: 0px;
 }
 
-.card 
+.card
 .items-description {
   letter-spacing: 1px;
   font-size: 15px;
   margin-top: 8px;
 }
 
-.card 
+.card
 .content-btn {
   margin-top: 10px;
 }
 
-.card 
+.card
 .content-btn button,
-.card 
-.content-btn a {
+.card
+.content-btn a,
+.card
+.content-btn
+.items-edit {
   display: block;
   padding: 0.6rem;
   margin-bottom: 5px;
@@ -101,12 +104,16 @@
   cursor: pointer;
   transition: 0.4s ease;
   text-decoration: none;
+  text-align: center;
 }
 
-.card 
+.card
 .content-btn button:hover,
-.card 
-.content-btn a:hover {
+.card
+.content-btn a:hover,
+.card
+.content-btn
+.items-edit:hover {
   background: dodgerblue;
   color: white;
 }
