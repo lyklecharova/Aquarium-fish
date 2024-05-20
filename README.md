@@ -8,7 +8,7 @@ Project is Single Page Application (SPA) created for aquarium fish using React f
 <p align="center"><img src="https://github.com/lyklecharova/Aquarium-fish/blob/main/Aquarium-fish/client/public/image/image-project/home-page.png" alt="home-page" width="960" height="540/"></p>
 <p align="center"><img src="https://github.com/lyklecharova/Aquarium-fish/blob/main/Aquarium-fish/client/public/image/image-project/catalog-page-with-content.png" alt="catalog-page-with-content" width="960" height="540/"></p>
 <p align="center"><img src="https://github.com/lyklecharova/Aquarium-fish/blob/main/Aquarium-fish/client/public/image/image-project/create-form-page.png" alt="create-form-page" width="960" height="540/"></p>
-
+<p align="center"><img src="https://github.com/lyklecharova/Aquarium-fish/blob/main/Aquarium-fish/client/public/image/image-project/page-404.png" alt="page-404" width="960" height="540/"></p>
 
 
 
