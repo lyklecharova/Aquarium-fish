@@ -6,6 +6,7 @@ Project is Single Page Application (SPA) created for aquarium fish using React f
 
 <h2>Project Screenshots:</h2>
 <p align="center"><img src="https://github.com/lyklecharova/Aquarium-fish/blob/main/Aquarium-fish/client/public/image/image-project/create-form-page.png" alt="catalog" width="960" height="540/"></p>
+<p align="center"><img src="https://github.com/lyklecharova/Aquarium-fish/blob/main/Aquarium-fish/client/public/image/image-project/home-page.png" alt="catalog" width="960" height="540/"></p>
 
 
 
