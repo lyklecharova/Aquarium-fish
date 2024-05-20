@@ -1,5 +1,5 @@
 # Aquarium-fish
-Project is Single Page Application (SPA) created for books using React for the Frontend (FE) and NodeJS, Express.JS, MongoDB for the Backend (BE).
+Project is Single Page Application (SPA) created for aquarium fish using React for the Frontend (FE) and NodeJS, Express.JS, MongoDB for the Backend (BE).
 
 <h1 align="center" id="title">Aquarium-fish</h1>
 <p id="description">Aquarium-fish is a web application that allows users to create and manage entries for aquarium fish. The main idea of the project is to provide a platform where users can document and organize their knowledge about different fish species and aquarium care.</p>
